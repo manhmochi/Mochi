@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Máy Tính Cộng</title>
+    </head>
+    <body>
+        <h1>Máy Tính Cộng</h1>
+            <input type="number" id="num1" placeholder="Số thứ nhất">
+                <input type="number" id="num2" placeholder="Số thứ hai">
+                    <button onclick="cong()">Cộng</button>
+                        <p>Kết quả: <span id="ketqua"></span></p>
+
+                            <script>
+                                    function cong() {
+                                                var a = parseFloat(document.getElementById("num1").value);
+                                                            var b = parseFloat(document.getElementById("num2").value);
+                                                                        var kq = a + b;
+                                                                                    document.getElementById("ketqua").innerText = kq;
+                                                                                            }
+                                                                                                </script>
+                                                                                                </body>
+                                                                                                </html>
